@@ -1,0 +1,134 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff;
+      color: #1f1f1f;
+    }
+
+    /* The whole bar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      height: 88px;
+      padding: 0 40px;
+      background: #fff;
+      border-bottom: 1px solid #ececec;
+    }
+
+    /* 1. Logo */
+    .logo {
+      font-size: 48px;
+      font-weight: 800;
+      color: #f8cb46;
+      text-decoration: none;
+      letter-spacing: -2px;
+      padding-right: 40px;
+      border-right: 1px solid #ececec;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    /* 2. Delivery time and address */
+    .location {
+      padding: 0 40px;
+      cursor: pointer;
+      max-width: 340px;
+    }
+
+    .location h3 {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .location p {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: #333;
+      margin-top: 4px;
+    }
+
+    .location .address {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .location .arrow {
+      font-size: 12px;
+    }
+
+    /* 3. Search box */
+    .search {
+      flex: 1;                 /* takes all the free space */
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      height: 60px;
+      padding: 0 20px;
+      background: #f3f3f3;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+    }
+
+    .search input {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 16px;
+    }
+
+    /* 4. Login link */
+    .login {
+      margin: 0 40px;
+      font-size: 22px;
+      color: #1f1f1f;
+      text-decoration: none;
+    }
+
+    .login:hover {
+      color: #0c831f;
+    }
+
+    /* 5. Cart button */
+    .cart {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 24px;
+      height: 64px;
+      border: none;
+      border-radius: 10px;
+      background: #0c831f;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .cart:hover {
+      background: #0a6b19;
+    }
+    .banner {
+      width: 100%;
+      height: auto;
+    }
+    .products {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      padding: 20px;
+    }
+    .hero-image {
+      width: 34vw;
+      height: 30vh;
+      border-radius: 1px;
+    }
